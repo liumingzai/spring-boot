@@ -4,12 +4,30 @@ user:
   name: L
   age: 27
 spring:
+  #http
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
+  #mysql
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/test
     username: root
     password: root
+  #jpa
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+      show-sql: true
+  #mongodb
+  mongodb:
+    host: localhost
+    port: 27017
+    username:
+    password:
+    database: demo
+    authentication-database:
+
+
