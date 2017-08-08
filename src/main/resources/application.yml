@@ -10,6 +10,13 @@ spring:
       charset: utf-8
       enabled: true
       force: true
+  #mail
+  mail:
+    protocol: smtp
+    host: smtp.163.com
+    port: 25
+    username: binlingexia@163.com
+    password: mingzaijun521*
   #mysql
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
