@@ -36,5 +36,18 @@ spring:
     password:
     database: demo
     authentication-database:
+  #elasticsearch
+  elasticsearch:
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.1.205:9300
+      repositories:
+        enabled: true
+      cluster-name: industry_search
+
+
+
+
+
 
 
