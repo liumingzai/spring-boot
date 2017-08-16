@@ -13,3 +13,4 @@ spring-boot简单的项目构建，学自慕课网
 - 单元测试MockMvc的应用
 
 ## 注意：在mvn clean package打包的时候，测试test方法会被编译
+         还有个自己记录的小坑，我Controller层的注解写了@RestController,导致我模板页面返回不了视图，只能返回字符串

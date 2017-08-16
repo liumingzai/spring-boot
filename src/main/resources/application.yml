@@ -17,7 +17,7 @@ spring:
     host: smtp.163.com
     port: 25
     username: binlingexia@163.com
-    password: mingzaijun521*
+    password: ***********
   #mysql
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -45,7 +45,7 @@ spring:
     encoding: UTF-8
     content-type: text/html
     cache: false
-    suffix: .html
+    suffix: .html·
     prefix: classpath:/templates/
   #mongodb
   mongodb:
