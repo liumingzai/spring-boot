@@ -36,3 +36,5 @@ spring-boot简单的项目构建，学自慕课网
 - spring.thymeleaf.view-names = ＃可以解析的视图名称的逗号分隔列表。
 
 ## 阿里大鱼可以注册自己的APP认证信息，进行短信验证，代码已更新，可以参考这发送验证码
+
+## log4jdbc用于显示全量的sql语句，不同于原来的hibernate jpa mybatis的sql显示，带有占位符？
