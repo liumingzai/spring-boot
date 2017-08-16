@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
 /**
- * User
+ * User（mysql表）
  *
  * @author： liubing           @email： liubing@proudsmart.com
  * @date： 2017/7/20.  @version：${VERSION}

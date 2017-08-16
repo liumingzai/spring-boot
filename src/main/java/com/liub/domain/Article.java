@@ -8,7 +8,7 @@ import java.util.Date;
 
 
 /**
- * LiubTest
+ * LiubTest（ES的索引）
  *
  * @author： liubing           @email： liubing@proudsmart.com
  * @date： 2017/8/9.  @version：${VERSION}

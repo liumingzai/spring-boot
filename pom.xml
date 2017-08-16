@@ -31,6 +31,12 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!--thymleaf-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -77,7 +83,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
+
+		<!-- 验证码kapatcha -->
+		<dependency>
+			<groupId>com.github.penggle</groupId>
+			<artifactId>kaptcha</artifactId>
+			<version>2.3.2</version>
+		</dependency>
 	</dependencies>
+
 
 	<build>
 		<plugins>
