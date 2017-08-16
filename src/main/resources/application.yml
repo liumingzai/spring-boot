@@ -17,18 +17,19 @@ spring:
     host: smtp.163.com
     port: 25
     username: binlingexia@163.com
-    password: ***********
+    password: ming
   #mysql
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/test
+    driver-class-name: net.sf.log4jdbc.DriverSpy
+    url: jdbc:log4jdbc:mysql://127.0.0.1:3306/test
     username: root
     password: root
   #jpa
   jpa:
     hibernate:
       ddl-auto: update
-      show-sql: true
+    show-sql: true
+    generate-ddl: true
  #redis
   redis:
     database: 1
@@ -63,6 +64,7 @@ spring:
       repositories:
         enabled: true
       cluster-name: industry_search
+
 
 
 
